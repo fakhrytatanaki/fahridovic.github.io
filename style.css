@@ -40,10 +40,11 @@ img.bg
   letter-spacing:3px;
   border-radius:30px;
   transition:all 0.5s;
-  display: flex;
   cursor:pointer;
-  justify-content: center;
-  align-items: center;
+  border:none;
+  font-size:1em;
+  margin:0 10%;
+  
 }
 .elbtn:hover
 {
@@ -65,22 +66,25 @@ height:100%;
   50%{opacity:0;}
   100%{opacity:1;}
 }
-.guide
+/* .guide
 {
-  /* background-color:rgba(13, 108, 133, 0.71);
-  border:red solid 1px; */
-}
+  background-color:rgba(13, 108, 133, 0.71);
+  border:red solid 1px;
+} */
 
 .gr4
 {
   height:50px;
   width:auto;
+  background:rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
 }
 .gr1
 {
 display:flex;
 justify-content: center;
-height:60%;
+height:50%;
 width:auto;
 align-items: center;
 text-align: center;
@@ -88,13 +92,15 @@ text-align: center;
 .gr2
 {
   display:flex;
-  justify-content: center;
-  height:5%;
+  height:25%;
   width:auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .gr3
 {
-  height:27%;
+  height:17%;
   width:auto;
 }
 #bbg
@@ -108,8 +114,9 @@ animation-duration:5s;
 z-index:-1;
 }
 
-#navbar
+#cmenu
 {
-opacity:0;
-background-color:black;
+width:auto;
+height:90%;
+margin:5px;
 }
