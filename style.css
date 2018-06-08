@@ -44,7 +44,10 @@ img.bg
   border:none;
   font-size:1em;
   margin:0 10%;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 .elbtn:hover
 {
