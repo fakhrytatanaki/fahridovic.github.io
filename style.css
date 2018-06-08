@@ -2,6 +2,7 @@ body
 {
     font-family:futura,helvetica,arial;
     margin:0;
+    font-variant-ligatures: none;
 }
 
 img.bg
