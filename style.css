@@ -49,6 +49,32 @@ img.bg
   justify-content: center;
 
 }
+.elbtn_clicked
+{
+  background-color:rgb(247, 126, 82);
+  width:150px;
+  height:50px;
+  text-transform:uppercase;
+  color:white;
+  letter-spacing:3px;
+  border-radius:30px;
+  transition:all 0.5s;
+  cursor:pointer;
+  border:none;
+  font-size:1em;
+  margin:0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.elbtn_clicked:hover
+
+{
+  transform:scale(1.1);
+  background-color:rgb(254, 46, 0);
+}
+
 .elbtn:hover
 {
   transform:scale(1.1);
@@ -75,19 +101,21 @@ height:100%;
   border:red solid 1px;
 } */
 
-.gr4
+.navbar
 {
-  height:50px;
-  width:auto;
-  background:rgba(0, 0, 0, 0.4);
-  display: flex;
-  align-items: center;
+  z-index:5;
+  position:absolute;
+  height:60px;
+  width:100%;
+  background:rgba(0, 0, 0, 0);
+  overflow: hidden;
+  transition:0.4s;
 }
 .gr1
 {
 display:flex;
 justify-content: center;
-height:50%;
+height:60%;
 width:auto;
 align-items: center;
 text-align: center;
@@ -107,7 +135,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height:17%;
+  height:15%;
   width:auto;
   color:white;
   letter-spacing:4px;
@@ -136,9 +164,19 @@ z-index:-1;
 
 #cmenu
 {
+  align-self: flex-start;
 width:auto;
-height:90%;
+height:45px;
 margin:5px;
+font-size:40px;
+border:rgba(255,255,255,0) solid 2px;
+transition:0.2s all;
+}
+
+#cmenu:hover
+{
+border:rgba(255,255,255,1) solid 2px;
+cursor:pointer;
 }
 
 .cont2
@@ -168,4 +206,24 @@ background-color:#345690;
   width:100%;
   display: flex;
   align-self: baseline;
+}
+
+.suba
+{
+font-family:helvetica;
+font-weight:200;
+margin:15px;
+color:white;
+font-size:30px;
+transition:0.3s all;
+}
+
+.suba:hover
+{
+font-family:helvetica;
+font-weight:200;
+margin:15px;
+color:orange;
+font-size:40px;
+cursor:pointer;
 }
