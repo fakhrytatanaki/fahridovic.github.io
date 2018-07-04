@@ -16,6 +16,18 @@ img.bg
   animation-duration:7s;
   opacity:0.7;
 }
+img.bgnb
+{
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter:blur(20px);
+  z-index:-1;
+  transition:0.4s;
+  opacity:0;
+}
 @keyframes blurin {
 0%{filter:blur(20px);opacity:0;}
 100%{filter:blur(0);opacity:0.7;}
